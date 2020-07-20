@@ -2584,7 +2584,7 @@ output {
   background-color: transparent;
   border: 0;
 }
-.form-control[disabled],
+.form-control[enable],
 .form-control[readonly],
 fieldset[disabled] .form-control {
   background-color: #eee;

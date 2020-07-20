@@ -1202,6 +1202,7 @@ ul.office-details li i {
 
 /* Contact Right */
 
+
 #contact-right {
     padding: 25px 30px;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -1217,14 +1218,14 @@ ul.office-details li i {
     margin-bottom: 25px;
 }
 
-#contact-right form .form-control {
+#contact-right form .contactform {
     font-family: "Open Sans", sans-serif;
     padding: 10px 15px;
     font-size: 12px;
     line-height: 24px;
 }
 
-#contact-right form textarea.form-control {
+#contact-right form textarea.contactform {
     min-height: 164px;
 }
 
@@ -1356,4 +1357,34 @@ ul.navbar-nav>li>a:focus {
 #arrow-down i {
     -webkit-animation-delay: 3s;
     animation-delay: 3s;
+}
+
+/* =========================================
+                Login
+============================================ */
+#login {
+    margin: 25px 0 20px 0;
+    padding: 50px 30px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+#login h4 {
+    font-size: 24px;
+}
+
+#login p {
+    margin-bottom: .5px;
+}
+
+#login form .loginform {
+    font-family: "Open Sans", sans-serif;
+    padding: 0px 0px;
+    font-size: 12px;
+    line-height: 0px;
+}
+
+#login form textarea.loginform {
+    min-height: 164px;
 }

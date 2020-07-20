@@ -175,8 +175,8 @@ $(window).on('load', function () {
     // Map Variables
     var addressString = 'Iritty, Kerala';
     var myLatlng = {
-        lat: 11.712685,
-        lng: -70.005920
+        lat: 11.9782862,
+        lng: 75.6744283
     };
 
     // 1. Render Map
