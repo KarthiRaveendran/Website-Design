@@ -16,7 +16,7 @@ IF (empty($name)|| (empty($email) || (empty($phone)|| (empty($subject)|| (empty(
 else
 {
 
-	mail("karthikeetz@gmail.com", "Message from E bull jet webdite" , $message, "From:$name <$ email> <$phone>  <$subject> <$Message>");
+	mail("karthikeetz@gmail.com", "Message from E bull jet website" , $message, "From:$name <$ email> <$phone>  <$subject> <$Message>");
 	echo "<script type='text/javascript'>alert ('your message sent successfully');
 
 	windows.history.log(-1);
